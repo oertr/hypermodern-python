@@ -1,11 +1,9 @@
-# src/hypermodern_python/console.py
 import textwrap
 
 import click
 import requests
 
 from . import __version__
-
 
 API_URL = "https://en.wikipedia.org/api/rest_v1/page/random/summary"
 

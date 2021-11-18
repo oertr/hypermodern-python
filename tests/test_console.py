@@ -1,5 +1,4 @@
 import click.testing
-
 from hypermodern_python import console
 
 
