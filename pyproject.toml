@@ -2,7 +2,7 @@
 name = "hypermodern-python"
 version = "0.1.0"
 description = "The hypermodern Python project"
-authors = ["oertr"]
+authors = ["oertr <rinta94oe+git@gmail.com>"]
 license = "MIT"
 readme = "README.md"
 homepage = "https://github.com/oertr/hypermodern-python"
