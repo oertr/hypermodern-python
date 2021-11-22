@@ -1,4 +1,4 @@
-from typing import Mock
+from unittest.mock import Mock
 
 import click
 import pytest

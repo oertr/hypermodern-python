@@ -14,7 +14,7 @@ class Page:
 
 schema = desert.schema(Page, meta={"unknown": marshmallow.EXCLUDE})
 
-API_URL = "https://{language}.wikipedia.org/api/rest_v1/page/random/summary"
+API_URL: str = "https://{language}.wikipedia.org/api/rest_v1/page/random/summary"
 
 
 def random_page(language: str = "en") -> Page:
