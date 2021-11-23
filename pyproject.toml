@@ -37,6 +37,11 @@ pre-commit = "^2.15.0"
 mypy = "^0.910"
 typeguard = "^2.13.0"
 flake8-annotations = "^2.7.0"
+flake8-docstrings = "^1.6.0"
+darglint = "^1.8.1"
+xdoctest = "^0.15.10"
+Sphinx = "^4.3.0"
+sphinx-autodoc-typehints = "^1.12.0"
 
 [tool.coverage.paths]
 source = ["src", "*/site-packages"]
