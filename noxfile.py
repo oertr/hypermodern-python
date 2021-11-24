@@ -35,7 +35,7 @@ def tests(session: Session) -> None:
     session.run("pytest", *args)
 
 
-@nox.session(python="3.9")
+@nox.session(python=["3.8", "3.7"])
 def lint(session: Session) -> None:
     """Lint using flake8."""
     args = session.posargs or locations
